@@ -142,10 +142,9 @@ The first practical used John the Ripper and Johnny GUI on a Windows computer to
 4. Extract the downloaded archive.
 5. Locate the run folder. It contains the John the Ripper executable required later in the practical.
 📸 Evidence:
-<!-- Replace the filename below with the actual screenshot filename. --><p align="center">
-  <img src="<img width="3772" height="1750" alt="Downloading John the Ripper" />
-screenshots/W3-PM1-Task-1-JTR-Download.png" width="750" alt="John the Ripper downloaded and extracted files">
-</p><p align="center"><em>Figure 1: John the Ripper files downloaded and extracted on the Windows computer.</em></p>⚙️ Task 2: Download and configure Johnny GUI
+<img width="3772" height="1750" alt="Downloading John the Ripper" src="https://github.com/user-attachments/assets/eaca440b-156f-44f5-bd5f-316132f4a4e3" />
+
+⚙️ Task 2: Download and configure Johnny GUI
 
 🎯 Objective: Install Johnny and connect it to the John the Ripper executable.
 
@@ -161,10 +160,9 @@ screenshots/W3-PM1-Task-1-JTR-Download.png" width="750" alt="John the Ripper dow
 🔍 Observation: Johnny provides a graphical interface for working with John the Ripper. It must be pointed to the correct john.exe file for the two programs to work together.
 
 📸 Evidence:
-<p align="center">
-  <img src="<img width="1550" height="692" alt="Johnny Configuration" src="https://github.com/user-attachments/assets/4d439432-881d-4975-b7c1-47b0a25bfb99" />
-screenshots/W3-PM1-Task-2-Johnny-Configuration.png" width="750" alt="Johnny configuration showing John the Ripper executable">
-</p><p align="center"><em>Figure 2: Configuring Johnny to use john.exe.</em></p>⚙️ Task 3: Extract the PDF password hash
+
+<img width="1550" height="692" alt="Johnny Configuration" src="https://github.com/user-attachments/assets/ac0334de-1758-4d68-bc73-e416bce247bf" />
+
 🎯 Objective: Extract the password hash from the encrypted PDF file.
 
 📝 Procedure:
@@ -178,9 +176,9 @@ screenshots/W3-PM1-Task-2-Johnny-Configuration.png" width="750" alt="Johnny conf
 ⚠️ Important: The lab instructions specify that the extracted hash should begin with $pdf$. Check that the complete hash has been copied. If extra characters such as b' appear before the hash, remove them so that the saved value follows the expected format.
 
 📸 Evidence:
-<p align="center">
-  <img src="screenshots/W3-PM1-Task-3-PDF-Hash-Extraction.png" width="750" alt="Extracted PDF password hash">
-</p><p align="center"><em>Figure 3: Password hash extracted from the protected PDF.</em></p>⚙️ Task 4: Save the hash in a text file
+
+<img width="3840" height="2027" alt="File Attack Password" src="https://github.com/user-attachments/assets/9656c324-22e5-403e-a73a-073ea09a8329" />
+
 🎯 Objective: Prepare the extracted hash as an input file for John the Ripper.
 
 📝 Procedure:

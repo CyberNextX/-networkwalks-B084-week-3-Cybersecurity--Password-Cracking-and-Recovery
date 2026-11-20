@@ -228,6 +228,9 @@ The first practical used John the Ripper and Johnny GUI on a Windows computer to
    
 9. 🔍 Analysis: John the Ripper attempts to identify a password that matches the supplied hash. The time required can vary depending on the password, the attack method and the processing capability of the computer.
 
+
+    <img width="3839" height="2027" alt="Screenshot 2026-11-20 182908" src="https://github.com/user-attachments/assets/3c407e91-7405-40d4-8a74-658affb041ae" />
+
 ⚙️ Task 6: Verify the recovered password
 
 🎯 Objective: Check whether the password identified during the exercise opens the original PDF.
@@ -239,6 +242,16 @@ The first practical used John the Ripper and Johnny GUI on a Windows computer to
 4. Check whether the document opens.
 
 🔍 Analysis: If the document opens successfully, this confirms that the recovered password matches the password protecting the PDF.
+
+Results 01
+<img width="1381" height="1676" alt="Screenshot 2026-11-18 193301" src="https://github.com/user-attachments/assets/1fd577ca-5e98-4d82-8214-c2a2d685e10a" />
+
+Results 02
+<img width="1350" height="1667" alt="Screenshot 2026-11-18 193803" src="https://github.com/user-attachments/assets/16a957a6-622b-4abf-8e8e-a92b70899bd8" />
+
+Results 03
+<img width="1654" height="1414" alt="Screenshot 2026-11-18 195023" src="https://github.com/user-attachments/assets/94ca917d-825e-4463-9cae-357009d2cf02" />
+
 
 🌐 4.2 W3-PM2 – Password cracking with NetworkWalks tools
 The second practical used two browser-based NetworkWalks tools to extract the password hash and attempt to recover the password of the same encrypted PDF document.

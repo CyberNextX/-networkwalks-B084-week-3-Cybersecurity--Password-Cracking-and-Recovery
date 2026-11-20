@@ -144,7 +144,7 @@ The first practical used John the Ripper and Johnny GUI on a Windows computer to
 📸 Evidence:
 <img width="3772" height="1750" alt="Downloading John the Ripper" src="https://github.com/user-attachments/assets/eaca440b-156f-44f5-bd5f-316132f4a4e3" />
 
-⚙️ Task 2: Download and configure Johnny GUI
+⚙️ STEEP 1: Download and configure Johnny GUI
 
 🎯 Objective: Install Johnny and connect it to the John the Ripper executable.
 
@@ -159,10 +159,21 @@ The first practical used John the Ripper and Johnny GUI on a Windows computer to
 7. Confirm the selection so that Johnny can use John the Ripper.
 🔍 Observation: Johnny provides a graphical interface for working with John the Ripper. It must be pointed to the correct john.exe file for the two programs to work together.
 
-📸 Evidence:
+⚙️ Task 2: Download and configure Johnny GUI
+🎯 Objective: Install Johnny and connect it to the John the Ripper executable.
 
-<img width="1550" height="692" alt="Johnny Configuration" src="https://github.com/user-attachments/assets/ac0334de-1758-4d68-bc73-e416bce247bf" />
+📝 Procedure:
+1. Visit the Johnny project page:
+   https://openwall.info/wiki/john/johnny
+2. Download and install Johnny using the available installer.
+3. Open Johnny after installation.
+4. Open Settings.
+5. Browse to the John the Ripper run folder.
+6. Select the john.exe file.
+7. Confirm the selection so that Johnny can use John the Ripper.
+🔍 Observation: Johnny provides a graphical interface for working with John the Ripper. It must be pointed to the correct john.exe file for the two programs to work together.
 
+⚙️ Task 3: Extract the PDF password hash
 🎯 Objective: Extract the password hash from the encrypted PDF file.
 
 📝 Procedure:
@@ -175,10 +186,7 @@ The first practical used John the Ripper and Johnny GUI on a Windows computer to
 6. Copy the hash displayed by the tool.
 ⚠️ Important: The lab instructions specify that the extracted hash should begin with $pdf$. Check that the complete hash has been copied. If extra characters such as b' appear before the hash, remove them so that the saved value follows the expected format.
 
-📸 Evidence:
-
-<img width="3840" height="2027" alt="File Attack Password" src="https://github.com/user-attachments/assets/9656c324-22e5-403e-a73a-073ea09a8329" />
-
+⚙️ Task 4: Save the hash in a text file
 🎯 Objective: Prepare the extracted hash as an input file for John the Ripper.
 
 📝 Procedure:
@@ -190,10 +198,7 @@ The first practical used John the Ripper and Johnny GUI on a Windows computer to
 6. Remember where the file is saved so that it can be located in Johnny.
 🔍 Observation: The hash file provides John the Ripper with the password-hash data to be processed during the exercise.
 
-📸 Evidence:
-<p align="center">
-  <img src="screenshots/W3-PM1-Task-4-Hash-Text-File.png" width="750" alt="PDF hash saved in Notepad">
-</p><p align="center"><em>Figure 4: Extracted PDF hash saved as hash1.txt.</em></p>⚙️ Task 5: Load the hash and start the attack in Johnny
+⚙️ Task 5: Load the hash and start the attack in Johnny
 🎯 Objective: Load the saved hash file into Johnny and initiate the password-recovery attempt.
 
 📝 Procedure:
@@ -206,11 +211,7 @@ The first practical used John the Ripper and Johnny GUI on a Windows computer to
 7. Allow the process to run and observe the results displayed by Johnny.
 🔍 Analysis: John the Ripper attempts to identify a password that matches the supplied hash. The time required can vary depending on the password, the attack method and the processing capability of the computer.
 
-📸 Evidence:
-<p align="center">
-  <img src="<img width="3840" height="2027" alt="File Attack Password" src="https://github.com/user-attachments/assets/98ea80a2-505c-4aac-b0d2-3f6ba8deb47b" />
-screenshots/W3-PM1-Task-5-JTR-Attack.png" width="750" alt="Johnny password recovery process">
-</p><p align="center"><em>Figure 5: Loading the hash file and starting the password-recovery attempt.</em></p>⚙️ Task 6: Verify the recovered password
+⚙️ Task 6: Verify the recovered password
 🎯 Objective: Check whether the password identified during the exercise opens the original PDF.
 
 📝 Procedure:
@@ -220,12 +221,7 @@ screenshots/W3-PM1-Task-5-JTR-Attack.png" width="750" alt="Johnny password recov
 4. Check whether the document opens.
 🔍 Analysis: If the document opens successfully, this confirms that the recovered password matches the password protecting the PDF.
 
-📌 Result: [Insert the actual result observed during the exercise.]
-
-📸 Evidence: Insert a screenshot showing the PDF password prompt or the successfully opened document, as appropriate.
-<p align="center">
-  <img src="screenshots/W3-PM1-Task-6-PDF-Verification.png" width="750" alt="Verification of the recovered PDF password">
-</p><p align="center"><em>Figure 6: Verification of the recovered password against the original PDF.</em></p>🌐 4.2 W3-PM2 – Password cracking with NetworkWalks tools
+🌐 4.2 W3-PM2 – Password cracking with NetworkWalks tools
 The second practical used two browser-based NetworkWalks tools to extract the password hash and attempt to recover the password of the same encrypted PDF document.
 
 Unlike the first exercise, which required installing John the Ripper and configuring Johnny on Windows, this activity was carried out through a web browser.
@@ -250,7 +246,8 @@ Unlike the first exercise, which required installing John the Ripper and configu
 3. Wait for the tool to load.
 📸 Evidence:
 <p align="center">
-  <img src="screenshots/W3-PM2-Task-2-Hash-Calculator.png" width="750" alt="NetworkWalks Hash Calculator">
+  <img src="<img width="3705" height="1915" alt="image" src="https://github.com/user-attachments/assets/b99df1a9-2f5c-47e7-aec6-171aba4707ee" />
+>
 </p><p align="center"><em>Figure 8: NetworkWalks Hash Calculator interface.</em></p>⚙️ Task 3: Extract the PDF hash
 🎯 Objective: Generate the password hash from the encrypted PDF.
 
@@ -263,7 +260,8 @@ Unlike the first exercise, which required installing John the Ripper and configu
 6. Confirm that the hash begins with $pdf$.
 📸 Evidence:
 <p align="center">
-  <img src="screenshots/W3-PM2-Task-3-Extracted-Hash.png" width="750" alt="PDF hash extracted using NetworkWalks">
+  <img src="<img width="3610" height="1735" alt="image" src="https://github.com/user-attachments/assets/5138b9b5-92fb-445a-a440-e1b636a241f0" />
+">
 </p><p align="center"><em>Figure 9: PDF hash generated by the NetworkWalks Hash Calculator.</em></p>⚙️ Task 4: Copy the complete hash
 🎯 Objective: Prepare the extracted hash for submission to the Password Cracker.
 
@@ -283,7 +281,8 @@ Unlike the first exercise, which required installing John the Ripper and configu
 3. Wait for the Password Cracker interface to load.
 📸 Evidence:
 <p align="center">
-  <img src="screenshots/W3-PM2-Task-5-Password-Cracker.png" width="750" alt="NetworkWalks Password Cracker">
+  <img src="<img width="3655" height="1652" alt="image" src="https://github.com/user-attachments/assets/b9c5f444-8fbe-42dd-bdd8-aa504acde16a" />
+">
 </p><p align="center"><em>Figure 10: NetworkWalks Password Cracker interface.</em></p>⚙️ Task 6: Submit the hash and start the attack
 🎯 Objective: Use the extracted hash to initiate the password-recovery process.
 
@@ -306,161 +305,84 @@ Unlike the first exercise, which required installing John the Ripper and configu
 2. Examine the result displayed on the screen.
 3. If a password is returned, record it for the verification step.
 4. If no password is returned, record that outcome accurately.
-📌 Result: [Insert the actual result observed during the exercise.]
+📌 Result: <img <img width="3795" height="1670" alt="image" src="https://github.com/user-attachments/assets/34abc425-84b6-4c11-9fbb-2ffc4b694740" />
+ />
 
 📸 Evidence:
 <p align="center">
   <img src="screenshots/W3-PM2-Task-7-Recovery-Result.png" width="750" alt="NetworkWalks password-cracking result">
-</p><p align="center"><em>Figure 12: Result returned by the NetworkWalks Password Cracker.</em></p>⚙️ Task 8: Verify the recovered password
+</p><p align="center"><em>Figure 12: Result returned by the NetworkWalks Password Cracker.</em></p>
+
+⚙️ Task 8: Verify the recovered password
 🎯 Objective: Confirm whether the password identified by the NetworkWalks tool opens the original PDF.
 
 📝 Procedure:
 1. Open My Locked PDF1.pdf.
-2. Enter the password returned by the Password Cracker, if one was recovered.
-3. Check whether the PDF opens successfully.
+4. Enter the password returned by the Password Cracker, if one was recovered.
+5. Check whether the PDF opens successfully.
 🔍 Analysis: Opening the original document provides a practical check that the recovered password matches the password protecting the file.
+NOTE: Reapeat for: My Locked PDF2.pdf and My Locked PDF3.pdf.
 
-📌 Result: [Insert the actual verification result.]
+📸 Evidence: 
 
-📸 Evidence: Insert a screenshot showing the password prompt or the successfully opened PDF, as appropriate.
-<p align="center">
-  <img src="screenshots/W3-PM2-Task-8-PDF-Verification.png" width="750" alt="Verification of the recovered password">
-</p><p align="center"><em>Figure 13: Verification of the password against the original PDF.</em></p>
----
+Results 01
+<img width="2062" height="1645" alt="pdf01" src="https://github.com/user-attachments/assets/651c37ce-ded3-4854-8214-e23c6077691e" />
 
-# ⚠️ 5. Risk Analysis and Impact
+Results 02
+<img width="2045" height="1485" alt="pdf02" src="https://github.com/user-attachments/assets/07c20ad4-dad7-40e8-ab7b-04b881f5484a" />
 
-Based on the observations collected during footprinting and network discovery, the following potential security considerations were identified.
+Results 03
+<img width="2085" height="1570" alt="pdf03" src="https://github.com/user-attachments/assets/54768534-6986-4ec6-ba3e-80448ea5dfe6" />
 
-| No. | Risk / Finding | Evidence / Observation | Potential Impact | Risk Level |
-|---|---|---|---|---|
-| 1 | Website technology information exposed | WhatWeb identified WordPress and a plugin | May assist further technology fingerprinting and software research | 🟠 Medium |
-| 2 | Domain IP address identifiable | Nslookup resolved the domain to an IPv4 address | Provides information about the hosting infrastructure | 🟢 Low |
-| 3 | HTTP technical information exposed | Curl returned response headers and REST API references | May assist further enumeration | 🟢 Low |
-| 4 | WAF technology identifiable | Wafw00f detected ModSecurity | Reveals information about the web security architecture | 🟢 Low |
-| 5 | DNS infrastructure information exposed | DNSRecon identified DNS, mail and service records | May help build a broader infrastructure profile | 🟠 Medium |
-| 6 | Multiple active local hosts identified | Nmap discovered three active hosts | Unrecognised devices may require investigation | 🟠 Medium |
+## ⚠️ 5. Risk Analysis and Impact
 
-**Risk level key:**
+The practical exercises highlighted several password-security considerations associated with encrypted PDF documents.
 
-- 🟢 **Low:** Limited observed exposure.
-- 🟠 **Medium:** Warrants further review.
-- 🔴 **High/Critical:** Requires urgent assessment where confirmed.
+| No. | Risk / Finding | Observation | Potential Impact | Indicative Risk |
+|:---:|---|---|---|:---:|
+| 1 | Weak PDF passwords | Password-recovery tools can test password guesses against an extracted hash. | Weak passwords may be easier to recover. | 🟠 Medium |
+| 2 | Password-hash exposure | The extracted hash can be used in password-recovery attempts. | An exposed hash may enable offline password attacks. | 🟠 Medium |
+| 3 | Predictable passwords | Common words and simple combinations are easier to guess. | Unauthorised access to protected documents. | 🟠 Medium |
+| 4 | Insecure document handling | Protected documents and their passwords may be shared without adequate safeguards. | Exposure of confidential information. | 🟠 Medium |
+| 5 | Third-party online processing | Browser-based services may require users to submit document data. | Potential confidentiality and privacy concerns. | 🟠 Medium |
 
 ### 📌 Risk Assessment Notes
 
-The risk levels above are indicative assessments of potential exposure, not confirmed vulnerability ratings.
+- The risks above are general security considerations demonstrated by the practical exercises. They should not be interpreted as confirmed vulnerabilities in the NetworkWalks tools or the supplied PDF document.
+- Extracting a password hash does not automatically mean that the original password can be recovered. Recovery depends on factors such as password strength, the attack method and available computing resources.
+- 
+## 🛡️ 6. Recommendations
 
-The practical exercises primarily involved information gathering and host discovery. No exploitation or vulnerability validation was performed as part of these activities.
+Based on the practical exercises, the following security measures are recommended:
 
-The presence of information such as a software version, IP address, DNS record or WAF technology does not by itself mean that a system is vulnerable. Further authorised security testing would be required to establish whether an actual vulnerability exists.
+| Recommendation | Security Measure |
+|:---|:---|
+| 🔐 **Use strong and unique passwords** | Protect sensitive PDF documents with long passwords that are difficult to guess. |
+| 🚫 **Avoid predictable passwords** | Do not use common words, personal information or simple number combinations. |
+| 🔄 **Change exposed passwords** | If a password may have been exposed, replace it and re-secure the document. |
+| 📄 **Protect confidential documents** | Apply appropriate encryption and share sensitive files only with authorised recipients. |
+| 🌐 **Be cautious with online tools** | Avoid uploading confidential documents to third-party services unless their privacy and data-handling practices have been assessed. |
+| 🔍 **Conduct authorised password-security assessments** | Organisations should periodically review password strength using approved testing procedures. |
+| 🛡️ **Adopt secure password-management practices** | Use password managers and appropriate organisational password policies. |
+| ⚖️ **Maintain authorised testing boundaries** | Password-cracking tools should only be used on files and systems that the tester owns or has permission to assess. |
 
----
 
-# 🛡️ 6. Recommendations
-
-Based on the observations from the practical exercises, the following security improvements are recommended.
-
-**1. 🔍 Review publicly exposed technology information**
-
-Organisations should regularly review the information publicly visible about their web technologies, content management systems and plugins.
-
-**2. 🔄 Keep software updated**
-
-Content management systems, plugins and other web technologies should be updated regularly and checked against relevant security advisories.
-
-**3. 🔐 Review HTTP response headers**
-
-HTTP response headers should be assessed to determine whether unnecessary technical information is exposed and whether appropriate security policies are configured.
-
-**4. 🌐 Review DNS records regularly**
-
-DNS records should be checked periodically to ensure that only required information and services are publicly exposed.
-
-**5. 🛡️ Review DNSSEC configuration**
-
-Where appropriate, organisations should assess the implementation of DNSSEC to support DNS response authenticity.
-
-**6. 🔥 Properly configure and monitor the WAF**
-
-ModSecurity rules should be reviewed, maintained and monitored to ensure that the web application firewall is appropriately configured.
-
-**7. 📡 Perform regular internal network discovery**
-
-Organisations should periodically scan their own networks to identify active devices and maintain an accurate network inventory.
-
-**8. 💻 Investigate unknown devices**
-
-Unexpected devices discovered during network scanning should be investigated and verified.
-
-**9. 🗺️ Maintain network documentation**
-
-Network topology and device information should be documented and updated regularly.
-
-**10. ⚖️ Conduct security testing with authorisation**
-
-Reconnaissance and scanning should only be performed against systems and networks where appropriate authorisation has been obtained.
 
 ---
 
-# 🎯 7. Conclusion
+## 🎯 7. Conclusion
 
-During Week 2 of the NetworkWalks Cybersecurity and Ethical Hacking training programme, I completed practical activities covering footprinting, reconnaissance and network discovery.
+During Week 3 of the NetworkWalks Cybersecurity and Ethical Hacking training programme, I successfully completed practical exercises on password recovery using John the Ripper and NetworkWalks browser-based tools.
 
-In the footprinting activity, I used six Kali Linux tools to collect information about the target domain. WHOIS provided domain registration information, WhatWeb identified website technologies, Nslookup resolved the domain name, Curl inspected HTTP response headers, Wafw00f detected a web application firewall, and DNSRecon provided additional DNS information.
+In **W3-PM1**, I used John the Ripper and Johnny GUI on a Windows computer. The exercise involved installing and configuring the tools, extracting the password hash from an encrypted PDF, saving it in a text file and initiating a password-recovery attempt. The password was successfully recovered and verified by opening the protected PDF document.
 
-In the network discovery activity, I used Windows `ipconfig` to examine the local network configuration and Nmap to identify active hosts. The scan examined 256 IP addresses and identified three active hosts.
+In **W3-PM2**, I used the NetworkWalks Hash Calculator and Password Cracker to extract the PDF hash and perform password recovery through a web browser. The password was also successfully recovered and verified by opening the encrypted PDF.
 
-The exercises demonstrated that information gathering is an important part of cybersecurity assessment. Before conducting deeper security testing, a practitioner can learn a considerable amount about a target environment by analysing publicly available information and network responses.
+The two exercises provided practical experience with different password-recovery approaches, including locally installed software and browser-based tools. They also strengthened my understanding of password hashes and how weak or predictable passwords can increase the risk of unauthorised access to protected documents.
 
-I also learned the importance of documenting technical findings accurately, interpreting observations carefully and distinguishing potential risks from confirmed vulnerabilities.
-
-Finally, the exercises reinforced the importance of conducting reconnaissance and network scanning within an authorised scope.
+Overall, the practical sessions reinforced the importance of using strong passwords, protecting sensitive documents, handling password hashes securely and ensuring that password-cracking tools are used responsibly within an authorised testing environment.
 
 ---
-
-## 📸 8. EVIDENCE COLLECTED
-
-📂 **Evidence directory:** `screenshots/`
-
-Screenshots and supporting evidence collected during the practical assessment are organised in the repository's `screenshots/` directory.
-
-| **No.** | **Evidence** | **Filename** |
-|:---:|---|---|
-
-| **1** | 🔎 WHOIS lookup | <img width="2965" height="1510" alt="Task 1-WHOs Results" src="https://github.com/user-attachments/assets/fb23881c-8614-4a6b-8a8c-17467ee31340" />
- |
-
-| **2** | 🛠️ WhatWeb results | <img width="2965" height="1495" alt="Task 2-WATWEB Results" src="https://github.com/user-attachments/assets/7618d98f-7ee3-4dda-be3f-05daccae3295" />
- |
-
-| **3** | 🌐 Nslookup results | <img width="2972" height="1535" alt="Task 3- nslookup Results" src="https://github.com/user-attachments/assets/d1b9f51b-564b-4a0b-b194-7ce1d45f0eaa" />
- |
-
-| **4** | 📡 Curl response headers | <img width="2965" height="1492" alt="Task 4- curl Results" src="https://github.com/user-attachments/assets/0cc05843-23f3-4cce-8c52-9c470b1780c6" />
-
- |
-
-| **5** | 🛡️ Wafw00f results | <img width="2962" height="1515" alt="Task 5-WafW00f Results" src="https://github.com/user-attachments/assets/ddfa1641-44ba-46b7-b6f2-f6d590eb60fb" />
- |
-
-| **6** | 🗂️ DNSRecon results |<img width="2972" height="1532" alt="Task 6-dnsrecon Results" src="https://github.com/user-attachments/assets/57c2fc26-778e-44ad-963b-e60409355c4a" />
- |
-
-| **7** | 💻 Windows network configuration | <img width="3385" height="1800" alt="Task 02-Find local IP" src="https://github.com/user-attachments/assets/566c3ad7-da80-476e-ac94-527296f7f2e3" />
- |
-
-| **8** | 🔍 Nmap host discovery | <img width="3375" height="1995" alt="Network discovery" src="https://github.com/user-attachments/assets/5d6ed419-04ef-4411-9816-2ce35ed53be0" />
- |
-
-| **9** | 🖥️ Zenmap topology | <img width="3480" height="1980" alt="Task 07 Typology" src="https://github.com/user-attachments/assets/6bfb676f-7ced-4f97-a478-d1feb2f9508d" />
- |
-
-| **10** | 📄 Exported network topology | [Task 07 Typology.pdf](https://github.com/user-attachments/files/34872621/Task.07.Typology.pdf)
- |
-</div>
-
-<div align="center">
 
 ---
 

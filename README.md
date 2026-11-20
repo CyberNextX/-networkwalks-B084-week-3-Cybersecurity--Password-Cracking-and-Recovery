@@ -49,7 +49,7 @@
 </table>
 
 </div>
----
+
 <p align="center">
   <img src="https://img.shields.io/badge/Skill-Cybersecurity-404040?style=flat-square&labelColor=C00000" />
   <img src="https://img.shields.io/badge/Ver-Virtualbox%20v7.2-0070C0?style=flat-square&labelColor=000000" />
@@ -68,8 +68,6 @@
 
 **NETWORKWALKS | PRACTICAL ACTIVITIES**
 
----
-
 ## ⚖️ Disclaimer
 
 All activities documented in this report were conducted for educational and research purposes under the NetworkWalks Cybersecurity and Ethical Hacking training programme. Testing was limited to the PDF file supplied for the authorised practical exercise.
@@ -79,8 +77,6 @@ Use password-recovery tools only on files that you own or have explicit permissi
 Unauthorised access to protected information may constitute a criminal offence.
 
 The author, instructor and NetworkWalks are not responsible for misuse of this information. All actions remain the sole responsibility of the individual.
-
----
 
 ## 📖 1. Introduction
 
@@ -189,6 +185,7 @@ The first practical used John the Ripper and Johnny GUI on a Windows computer to
 4. Upload the file using the tool's upload option.
 5. Allow the tool to process the document.
 6. Copy the hash displayed by the tool.
+7. 
 ⚠️ Important: The lab instructions specify that the extracted hash should begin with $pdf$. Check that the complete hash has been copied. If extra characters such as b' appear before the hash, remove them so that the saved value follows the expected format.
 
 ⚙️ Task 4: Save the hash in a text file
@@ -214,7 +211,7 @@ The first practical used John the Ripper and Johnny GUI on a Windows computer to
 5. Confirm that the hash has been loaded.
 6. Select Start New Attack.
 7. Allow the process to run and observe the results displayed by Johnny.
-🔍 Analysis: John the Ripper attempts to identify a password that matches the supplied hash. The time required can vary depending on the password, the attack method and the processing capability of the computer.
+8. 🔍 Analysis: John the Ripper attempts to identify a password that matches the supplied hash. The time required can vary depending on the password, the attack method and the processing capability of the computer.
 
 ⚙️ Task 6: Verify the recovered password
 🎯 Objective: Check whether the password identified during the exercise opens the original PDF.
@@ -230,6 +227,7 @@ The first practical used John the Ripper and Johnny GUI on a Windows computer to
 The second practical used two browser-based NetworkWalks tools to extract the password hash and attempt to recover the password of the same encrypted PDF document.
 
 Unlike the first exercise, which required installing John the Ripper and configuring Johnny on Windows, this activity was carried out through a web browser.
+
 ⚙️ Task 1: Download the encrypted PDF
 🎯 Objective: Obtain the PDF document supplied for the NetworkWalks practical.
 
@@ -251,9 +249,9 @@ Unlike the first exercise, which required installing John the Ripper and configu
 3. Wait for the tool to load.
 📸 Evidence:
 
-<img width="3705" height="1914" alt="Screenshot 2026-11-20 203747" src="https://github.com/user-attachments/assets/77eac200-e5df-4599-80ec-23c233979fd2" />
+<img width="3705" height="1914" alt="Screenshot 2026-11-20 203747" src="https://github.com/user-attachments/assets/77eac200-e5df-4599-80ec-23c233979fd2"/>
 
->⚙️ Task 3: Extract the PDF hash
+⚙️ Task 3: Extract the PDF hash
 🎯 Objective: Generate the password hash from the encrypted PDF.
 
 📝 Procedure:

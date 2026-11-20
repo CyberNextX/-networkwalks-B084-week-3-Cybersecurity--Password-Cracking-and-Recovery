@@ -145,7 +145,7 @@ The first practical used John the Ripper and Johnny GUI on a Windows computer to
 4. Extract the downloaded archive.
 5. Locate the run folder. It contains the John the Ripper executable required later in the practical.
 📸 Evidence:
-<img width="3772" height="1750" alt="Downloading John the Ripper" src="https://github.com/user-attachments/assets/eaca440b-156f-44f5-bd5f-316132f4a4e3" />
+<img width="3772" height="1750" alt="Downloading John the Ripper" src="https://github.com/user-attachments/assets/eaca440b-156f-44f5-bd5f-316132f4a4e3"
 
 ⚙️ STEEP 1: Download and configure Johnny GUI
 
@@ -160,7 +160,7 @@ The first practical used John the Ripper and Johnny GUI on a Windows computer to
 5. Browse to the John the Ripper run folder.
 6. Select the john.exe file.
 7. Confirm the selection so that Johnny can use John the Ripper.
-   
+  
 🔍 Observation: Johnny provides a graphical interface for working with John the Ripper. It must be pointed to the correct john.exe file for the two programs to work together.
 
 ⚙️ Task 2: Download and configure Johnny GUI
@@ -180,6 +180,7 @@ The first practical used John the Ripper and Johnny GUI on a Windows computer to
 🔍 Observation: Johnny provides a graphical interface for working with John the Ripper. It must be pointed to the correct john.exe file for the two programs to work together.
 
 ⚙️ Task 3: Extract the PDF password hash
+
 🎯 Objective: Extract the password hash from the encrypted PDF file.
 
 📝 Procedure:
@@ -194,6 +195,7 @@ The first practical used John the Ripper and Johnny GUI on a Windows computer to
 ⚠️ Important: The lab instructions specify that the extracted hash should begin with $pdf$. Check that the complete hash has been copied. If extra characters such as b' appear before the hash, remove them so that the saved value follows the expected format.
 
 ⚙️ Task 4: Save the hash in a text file
+
 🎯 Objective: Prepare the extracted hash as an input file for John the Ripper.
 
 📝 Procedure:
@@ -206,6 +208,7 @@ The first practical used John the Ripper and Johnny GUI on a Windows computer to
 🔍 Observation: The hash file provides John the Ripper with the password-hash data to be processed during the exercise.
 
 ⚙️ Task 5: Load the hash and start the attack in Johnny
+
 🎯 Objective: Load the saved hash file into Johnny and initiate the password-recovery attempt.
 
 📝 Procedure:
@@ -220,6 +223,7 @@ The first practical used John the Ripper and Johnny GUI on a Windows computer to
 9. 🔍 Analysis: John the Ripper attempts to identify a password that matches the supplied hash. The time required can vary depending on the password, the attack method and the processing capability of the computer.
 
 ⚙️ Task 6: Verify the recovered password
+
 🎯 Objective: Check whether the password identified during the exercise opens the original PDF.
 
 📝 Procedure:
@@ -236,6 +240,7 @@ The second practical used two browser-based NetworkWalks tools to extract the pa
 Unlike the first exercise, which required installing John the Ripper and configuring Johnny on Windows, this activity was carried out through a web browser.
 
 ⚙️ Task 1: Download the encrypted PDF
+
 🎯 Objective: Obtain the PDF document supplied for the NetworkWalks practical.
 
 📝 Procedure:
@@ -328,7 +333,8 @@ Unlike the first exercise, which required installing John the Ripper and configu
 
 📸 Evidence:
 
-<img width="3795" height="1670" alt="Screenshot 2026-11-20 204604" src="https://github.com/user-attachments/assets/37ed0f9d-a4b8-4625-888e-1cc3e7a5ac6d" />
+<img width="3795" height="1670" alt="Screenshot 2026-11-20 204604" src="https://github.com/user-attachments/assets/37ed0f9d-a4b8-4625-888e-1cc3e7a5ac6d" 
+
 
 ⚙️ Task 8: Verify the recovered password
 

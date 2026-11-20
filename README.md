@@ -131,7 +131,9 @@ The main objectives of these practical exercises were to:
 🔐 4. Practical activities
 🔐 4.1 W3-PM1 – Password cracking with John the Ripper
 The first practical used John the Ripper and Johnny GUI on a Windows computer to attempt to recover the password of the encrypted PDF supplied for the exercise.
+
 ⚙️ Task 1: Download John the Ripper
+
 🎯 Objective: Download John the Ripper for use on a Windows computer.
 
 📝 Procedure:
@@ -158,9 +160,11 @@ The first practical used John the Ripper and Johnny GUI on a Windows computer to
 5. Browse to the John the Ripper run folder.
 6. Select the john.exe file.
 7. Confirm the selection so that Johnny can use John the Ripper.
+   
 🔍 Observation: Johnny provides a graphical interface for working with John the Ripper. It must be pointed to the correct john.exe file for the two programs to work together.
 
 ⚙️ Task 2: Download and configure Johnny GUI
+
 🎯 Objective: Install Johnny and connect it to the John the Ripper executable.
 
 📝 Procedure:
@@ -172,6 +176,7 @@ The first practical used John the Ripper and Johnny GUI on a Windows computer to
 5. Browse to the John the Ripper run folder.
 6. Select the john.exe file.
 7. Confirm the selection so that Johnny can use John the Ripper.
+   
 🔍 Observation: Johnny provides a graphical interface for working with John the Ripper. It must be pointed to the correct john.exe file for the two programs to work together.
 
 ⚙️ Task 3: Extract the PDF password hash
@@ -211,7 +216,8 @@ The first practical used John the Ripper and Johnny GUI on a Windows computer to
 5. Confirm that the hash has been loaded.
 6. Select Start New Attack.
 7. Allow the process to run and observe the results displayed by Johnny.
-8. 🔍 Analysis: John the Ripper attempts to identify a password that matches the supplied hash. The time required can vary depending on the password, the attack method and the processing capability of the computer.
+   
+9. 🔍 Analysis: John the Ripper attempts to identify a password that matches the supplied hash. The time required can vary depending on the password, the attack method and the processing capability of the computer.
 
 ⚙️ Task 6: Verify the recovered password
 🎯 Objective: Check whether the password identified during the exercise opens the original PDF.
@@ -221,6 +227,7 @@ The first practical used John the Ripper and Johnny GUI on a Windows computer to
 2. Open My Locked PDF1.pdf.
 3. Enter the recovered password when prompted.
 4. Check whether the document opens.
+
 🔍 Analysis: If the document opens successfully, this confirms that the recovered password matches the password protecting the PDF.
 
 🌐 4.2 W3-PM2 – Password cracking with NetworkWalks tools
@@ -233,13 +240,12 @@ Unlike the first exercise, which required installing John the Ripper and configu
 
 📝 Procedure:
 1. Open the NetworkWalks project task page:
-   https://networkwalks.com/project-task-lab-password-cracking-with-networkwalks-tools/<img width="3705" height="1914" alt="Screenshot 2026-11-20 203747" src="https://github.com/user-attachments/assets/d08df20c-eb7d-451b-9501-2eb4341a017e" />
-
 2. Locate the supplied My Locked PDF1.pdf file.
 3. Download the file to the computer.
 📸 Evidence:<img width="2430" height="252" alt="image" src="https://github.com/user-attachments/assets/14c5914f-e4fd-4120-916e-dd3434aaa348" />
 
 ⚙️ Task 2: Open the NetworkWalks Hash Calculator
+
 🎯 Objective: Access the tool used to extract the PDF password hash.
 
 📝 Procedure:
@@ -252,6 +258,7 @@ Unlike the first exercise, which required installing John the Ripper and configu
 <img width="3705" height="1914" alt="Screenshot 2026-11-20 203747" src="https://github.com/user-attachments/assets/77eac200-e5df-4599-80ec-23c233979fd2"/>
 
 ⚙️ Task 3: Extract the PDF hash
+
 🎯 Objective: Generate the password hash from the encrypted PDF.
 
 📝 Procedure:
@@ -268,6 +275,7 @@ Unlike the first exercise, which required installing John the Ripper and configu
 <img width="3609" height="1735" alt="Screenshot 2026-11-20 204050" src="https://github.com/user-attachments/assets/70e2428a-c602-477d-b297-6c20399bf740" />
 
 ⚙️ Task 4: Copy the complete hash
+
 🎯 Objective: Prepare the extracted hash for submission to the Password Cracker.
 
 📝 Procedure:
@@ -279,6 +287,7 @@ Unlike the first exercise, which required installing John the Ripper and configu
 
 
 ⚙️ Task 5: Open the NetworkWalks Password Cracker
+
 🎯 Objective: Access the tool used to attempt password recovery.
 
 📝 Procedure:
@@ -291,6 +300,7 @@ Unlike the first exercise, which required installing John the Ripper and configu
 
 
 ⚙️ Task 6: Submit the hash and start the attack
+
 🎯 Objective: Use the extracted hash to initiate the password-recovery process.
 
 📝 Procedure:
@@ -299,6 +309,7 @@ Unlike the first exercise, which required installing John the Ripper and configu
 3. Check that the hash has been entered correctly.
 4. Start the password-cracking process using the tool's provided control.
 5. Allow the tool to run.
+   
 🔍 Analysis: The Password Cracker attempts to identify a password matching the submitted hash. The time taken depends on the password and the tool's available processing resources.
 
 📸 Evidence:
@@ -306,6 +317,7 @@ Unlike the first exercise, which required installing John the Ripper and configu
 
 
 ⚙️ Task 7: Review the password-cracking result
+
 🎯 Objective: Establish whether the tool identified a matching password.
 
 📝 Procedure:
@@ -319,6 +331,7 @@ Unlike the first exercise, which required installing John the Ripper and configu
 <img width="3795" height="1670" alt="Screenshot 2026-11-20 204604" src="https://github.com/user-attachments/assets/37ed0f9d-a4b8-4625-888e-1cc3e7a5ac6d" />
 
 ⚙️ Task 8: Verify the recovered password
+
 🎯 Objective: Confirm whether the password identified by the NetworkWalks tool opens the original PDF.
 
 📝 Procedure:

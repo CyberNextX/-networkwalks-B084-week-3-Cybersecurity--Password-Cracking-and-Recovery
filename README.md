@@ -410,34 +410,12 @@ Overall, the practical sessions reinforced the importance of using strong passwo
 ---
 
 ## 👨‍💻 Author
-
 **Brian Simpande**
-
 🔗 **LinkedIn:** [Brian Simpande](https://www.linkedin.com/in/brian-simpande/)
 
----
-
-## 📋 Project Details
-
----
-
-<div align="center">
-
-## 👨‍💻 Author
-
-**Brian Simpande**
-
-LinkedIn: Brian Simpande
-
----
-
 ## 📋 Programme Details
-
 Cybersecurity and Ethical Hacking – NetworkWalks
-
 **Week 03 | Batch B084**
-
 Project: Password Cracking and Recovery
-
 
 </div>

@@ -19,7 +19,7 @@
 <th width="60%" align="center">DETAIL</th>
 </tr>
 <tr>
-<td><strong>Pentester Name</strong><br/>(Cybersecurity Professional)</td>
+<td><strong>Pentester Name</strong><br/></td>
 <td><strong>Brian Simpande</strong></td>
 </tr>
 <tr bgcolor="#0969DA">
@@ -191,7 +191,7 @@ The first practical used John the Ripper and Johnny GUI on a Windows computer to
 4. Upload the file using the tool's upload option.
 5. Allow the tool to process the document.
 6. Copy the hash displayed by the tool.
-7. 
+ 
 ⚠️ Important: The lab instructions specify that the extracted hash should begin with $pdf$. Check that the complete hash has been copied. If extra characters such as b' appear before the hash, remove them so that the saved value follows the expected format.
 
 ⚙️ Task 4: Save the hash in a text file
@@ -205,6 +205,7 @@ The first practical used John the Ripper and Johnny GUI on a Windows computer to
 4. Select File → Save As.
 5. Save the file as hash1.txt.
 6. Remember where the file is saved so that it can be located in Johnny.
+
 🔍 Observation: The hash file provides John the Ripper with the password-hash data to be processed during the exercise.
 
 ⚙️ Task 5: Load the hash and start the attack in Johnny
@@ -247,6 +248,7 @@ Unlike the first exercise, which required installing John the Ripper and configu
 1. Open the NetworkWalks project task page:
 2. Locate the supplied My Locked PDF1.pdf file.
 3. Download the file to the computer.
+
 📸 Evidence:<img width="2430" height="252" alt="image" src="https://github.com/user-attachments/assets/14c5914f-e4fd-4120-916e-dd3434aaa348" />
 
 ⚙️ Task 2: Open the NetworkWalks Hash Calculator
@@ -258,6 +260,7 @@ Unlike the first exercise, which required installing John the Ripper and configu
 2. Visit the NetworkWalks Hash Calculator:
    https://networkwalks.com/hash-calculator/
 3. Wait for the tool to load.
+   
 📸 Evidence:
 
 <img width="3705" height="1914" alt="Screenshot 2026-11-20 203747" src="https://github.com/user-attachments/assets/77eac200-e5df-4599-80ec-23c233979fd2"/>
@@ -318,7 +321,7 @@ Unlike the first exercise, which required installing John the Ripper and configu
 🔍 Analysis: The Password Cracker attempts to identify a password matching the submitted hash. The time taken depends on the password and the tool's available processing resources.
 
 📸 Evidence:
-<img width="3651" height="1723" alt="Screenshot 2026-11-20 204421" src="https://github.com/user-attachments/assets/f55b4f10-ba96-489a-9de1-19eb66ae20dc" />
+<img width="3651" height="1723" alt="Screenshot 2026-11-20 204421" src="https://github.com/user-attachments/assets/0bafa295-ea10-46de-a826-be0583411394" />
 
 
 ⚙️ Task 7: Review the password-cracking result
@@ -333,7 +336,7 @@ Unlike the first exercise, which required installing John the Ripper and configu
 
 📸 Evidence:
 
-<img width="3795" height="1670" alt="Screenshot 2026-11-20 204604" src="https://github.com/user-attachments/assets/37ed0f9d-a4b8-4625-888e-1cc3e7a5ac6d" 
+<img width="3795" height="1670" alt="Screenshot 2026-11-20 204604" src="https://github.com/user-attachments/assets/2c6a4398-3d31-44f4-8aa2-fd8897ddc1bc" />
 
 
 ⚙️ Task 8: Verify the recovered password

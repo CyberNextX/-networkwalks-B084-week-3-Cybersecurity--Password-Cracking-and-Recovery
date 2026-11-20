@@ -432,7 +432,7 @@ Overall, the practical sessions reinforced the importance of using strong passwo
 
 **Brian Simpande**
 
-🔗 **LinkedIn:** [Brian Simpande](https://www.linkedin.com/in/brian-simpande/)
+🔗 **LinkedIn:** [Brian Simpande](https://www.linkedin.com/posts/brian-simpande_building-practical-cybersecurity-skills-ugcPost-7529653590945243136-xXu9/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABkwfYkB1vhjVuRGmlZnr4RtusrFxPlRgiI)
 
 ---
 
